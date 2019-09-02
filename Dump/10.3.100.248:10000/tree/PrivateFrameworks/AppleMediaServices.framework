@@ -1,0 +1,205 @@
+<HTML>
+<HEAD>
+<TITLE>AppleMediaServices.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/AppleMediaServices.framework
+147 classes
+
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSAccountStoreCache.h">AMSAccountStoreCache.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSAnisette.h">AMSAnisette.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSAuthKitUpdateResult.h">AMSAuthKitUpdateResult.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSAuthKitUpdateTask.h">AMSAuthKitUpdateTask.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSAuthenticateOptions.h">AMSAuthenticateOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSAuthenticateResult.h">AMSAuthenticateResult.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSAuthenticateTask.h">AMSAuthenticateTask.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSBag.h">AMSBag.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSBagFrozenDataSource.h">AMSBagFrozenDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSBagFrozenDataSourceBuilder.h">AMSBagFrozenDataSourceBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSBagKeyInfo.h">AMSBagKeyInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSBagKeySet.h">AMSBagKeySet.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSBagNetworkDataSource.h">AMSBagNetworkDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSBagURLParser.h">AMSBagURLParser.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSBagValue.h">AMSBagValue.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSBinaryPromise.h">AMSBinaryPromise.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCFUserNotification.h">AMSCFUserNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCardAuthorizationTask.h">AMSCardAuthorizationTask.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCardEnrollment.h">AMSCardEnrollment.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCardEnrollmentEligibilityTask.h">AMSCardEnrollmentEligibilityTask.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCardEnrollmentPaymentSessionTask.h">AMSCardEnrollmentPaymentSessionTask.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCardEnrollmentVerificationTask.h">AMSCardEnrollmentVerificationTask.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCardEnrollmentWallet.h">AMSCardEnrollmentWallet.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCardMetadataRegistrationResult.h">AMSCardMetadataRegistrationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCardRegistrationResult.h">AMSCardRegistrationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCardRegistrationTask.h">AMSCardRegistrationTask.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCircularBuffer.h">AMSCircularBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSCommerceService.h">AMSCommerceService.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSData.h">AMSData.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSDefaults.h">AMSDefaults.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSDevice.h">AMSDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSDeviceOffer.h">AMSDeviceOffer.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSDialog.h">AMSDialog.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSDialogButton.h">AMSDialogButton.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSDialogTextField.h">AMSDialogTextField.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSDoubleLinkedList.h">AMSDoubleLinkedList.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSDoubleLinkedListNode.h">AMSDoubleLinkedListNode.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSEphemeralDefaults.h">AMSEphemeralDefaults.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSFailingBagValue.h">AMSFailingBagValue.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSFamilyInfoLookupResult.h">AMSFamilyInfoLookupResult.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSFamilyInfoLookupTask.h">AMSFamilyInfoLookupTask.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSFamilyMember.h">AMSFamilyMember.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSFeatureEnabler.h">AMSFeatureEnabler.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSFollowUp.h">AMSFollowUp.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSFollowUpAction.h">AMSFollowUpAction.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSFollowUpItem.h">AMSFollowUpItem.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSFollowUpMetricsEvent.h">AMSFollowUpMetricsEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSFrozenBagValue.h">AMSFrozenBagValue.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSHTTPArchive.h">AMSHTTPArchive.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSHTTPArchiveController.h">AMSHTTPArchiveController.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSInternalBag.h">AMSInternalBag.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSKeepAlive.h">AMSKeepAlive.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSKeepAliveSession.h">AMSKeepAliveSession.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLRUCache.h">AMSLRUCache.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLRUCacheItem.h">AMSLRUCacheItem.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLazyPromise.h">AMSLazyPromise.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLegacyBag.h">AMSLegacyBag.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLogConfig.h">AMSLogConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLookup.h">AMSLookup.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLookupDecoder.h">AMSLookupDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLookupItem.h">AMSLookupItem.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLookupItemArtwork.h">AMSLookupItemArtwork.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLookupItemArtworkColor.h">AMSLookupItemArtworkColor.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLookupItemOffer.h">AMSLookupItemOffer.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSLookupResult.h">AMSLookupResult.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMemoryPressure.h">AMSMemoryPressure.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMescal.h">AMSMescal.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMescalFairPlay.h">AMSMescalFairPlay.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMescalSession.h">AMSMescalSession.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMetrics.h">AMSMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMetricsBatch.h">AMSMetricsBatch.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMetricsDatabase.h">AMSMetricsDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMetricsDatabaseSchema.h">AMSMetricsDatabaseSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMetricsEvent.h">AMSMetricsEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMetricsLoadURLContext.h">AMSMetricsLoadURLContext.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMetricsLoadURLEvent.h">AMSMetricsLoadURLEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMutableBagKeySet.h">AMSMutableBagKeySet.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSMutableLogConfig.h">AMSMutableLogConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSNetworkQualityInquiry.h">AMSNetworkQualityInquiry.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSObservable.h">AMSObservable.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSObserver.h">AMSObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSOpenURL.h">AMSOpenURL.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSOperation.h">AMSOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSPaymentSetupFeatureVerification.h">AMSPaymentSetupFeatureVerification.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSProcessInfo.h">AMSProcessInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSPromise.h">AMSPromise.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSPromiseCompletionBlocks.h">AMSPromiseCompletionBlocks.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSPromiseResult.h">AMSPromiseResult.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSPushConfiguration.h">AMSPushConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSPushHandler.h">AMSPushHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSPushParsableFollowUp.h">AMSPushParsableFollowUp.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSPushParsableGenericNotification.h">AMSPushParsableGenericNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSPushParsableRichNotification.h">AMSPushParsableRichNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSPushPayload.h">AMSPushPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSRemoteNotification.h">AMSRemoteNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSRestrictions.h">AMSRestrictions.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSRichNotificationMetricsEvent.h">AMSRichNotificationMetricsEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteComparisonPredicate.h">AMSSQLiteComparisonPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteCompoundPredicate.h">AMSSQLiteCompoundPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteConnection.h">AMSSQLiteConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteConnectionOptions.h">AMSSQLiteConnectionOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteContainsPredicate.h">AMSSQLiteContainsPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteCursor.h">AMSSQLiteCursor.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteEntity.h">AMSSQLiteEntity.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteMemoryEntity.h">AMSSQLiteMemoryEntity.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteNullPredicate.h">AMSSQLiteNullPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLitePredicate.h">AMSSQLitePredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLitePreparedStatement.h">AMSSQLitePreparedStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLitePropertyPredicate.h">AMSSQLitePropertyPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteQuery.h">AMSSQLiteQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteQueryDescriptor.h">AMSSQLiteQueryDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteQueryResults.h">AMSSQLiteQueryResults.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteSchema.h">AMSSQLiteSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteSchemaMigration.h">AMSSQLiteSchemaMigration.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSQLiteStatement.h">AMSSQLiteStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSSnapshotBag.h">AMSSnapshotBag.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSTask.h">AMSTask.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSThreadSafeSet.h">AMSThreadSafeSet.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSUNUserNotificationStrategy.h">AMSUNUserNotificationStrategy.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLAction.h">AMSURLAction.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLParser.h">AMSURLParser.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLProtocolAction.h">AMSURLProtocolAction.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLProtocolAuthorizationDialog.h">AMSURLProtocolAuthorizationDialog.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLProtocolDialog.h">AMSURLProtocolDialog.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLProtocolDialogButton.h">AMSURLProtocolDialogButton.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLProtocolHandler.h">AMSURLProtocolHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLProtocolResponse.h">AMSURLProtocolResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLProtocolTouchIdDialog.h">AMSURLProtocolTouchIdDialog.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLRequest.h">AMSURLRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLRequestEncoder.h">AMSURLRequestEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLRequestProperties.h">AMSURLRequestProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLResponseDecoder.h">AMSURLResponseDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLResult.h">AMSURLResult.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLSecurityPolicy.h">AMSURLSecurityPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLSession.h">AMSURLSession.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSURLTaskInfo.h">AMSURLTaskInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSUniqueExecutionQueue.h">AMSUniqueExecutionQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSUnitTests.h">AMSUnitTests.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSUserAgent.h">AMSUserAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSUserAgentBundleInfo.h">AMSUserAgentBundleInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSUserNotification.h">AMSUserNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSUserNotificationAction.h">AMSUserNotificationAction.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSUserNotificationCenter.h">AMSUserNotificationCenter.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/AMSVersionComparator.h">AMSVersionComparator.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/URLTarget.h">URLTarget.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/_AMSKeyValueObservable.h">_AMSKeyValueObservable.h</A>
+<A HREF="/tree/PrivateFrameworks/AppleMediaServices.framework/_AMSNotificationObservable.h">_AMSNotificationObservable.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

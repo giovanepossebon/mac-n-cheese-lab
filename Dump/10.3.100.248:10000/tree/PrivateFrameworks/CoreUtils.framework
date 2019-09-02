@@ -1,0 +1,170 @@
+<HTML>
+<HEAD>
+<TITLE>CoreUtils.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/CoreUtils.framework
+112 classes
+
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CAAnimationDelegateBlockHelper.h">CAAnimationDelegateBlockHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUAppleIDClient.h">CUAppleIDClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUAudioPlayer.h">CUAudioPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUAudioRequest.h">CUAudioRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBLEAdvertiser.h">CUBLEAdvertiser.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBLEConnection.h">CUBLEConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBLEDevice.h">CUBLEDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBLEScanner.h">CUBLEScanner.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBLEServer.h">CUBLEServer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBitCoder.h">CUBitCoder.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBitCoderDecryptRequest.h">CUBitCoderDecryptRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBitCoderDecryptResponse.h">CUBitCoderDecryptResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBitCoderEncryptRequest.h">CUBitCoderEncryptRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBluetoothClient.h">CUBluetoothClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBluetoothDevice.h">CUBluetoothDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBluetoothFindDeviceRequest.h">CUBluetoothFindDeviceRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBluetoothScalablePipe.h">CUBluetoothScalablePipe.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBonjourAdvertiser.h">CUBonjourAdvertiser.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBonjourBrowser.h">CUBonjourBrowser.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUBonjourDevice.h">CUBonjourDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUCoalescer.h">CUCoalescer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUDashboardClient.h">CUDashboardClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUDashboardServer.h">CUDashboardServer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUHomeKitFindPairedPeerContext.h">CUHomeKitFindPairedPeerContext.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUHomeKitManager.h">CUHomeKitManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUHomeKitResolvableAccessory.h">CUHomeKitResolvableAccessory.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUIDSReadRequest.h">CUIDSReadRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUIDSSession.h">CUIDSSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUIDSWriteRequest.h">CUIDSWriteRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUKeyValueStoreReader.h">CUKeyValueStoreReader.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUKeyValueStoreWriter.h">CUKeyValueStoreWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUKeychainItem.h">CUKeychainItem.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUKeychainManager.h">CUKeychainManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMFiDeviceDiscovery.h">CUMFiDeviceDiscovery.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMFiReadRequest.h">CUMFiReadRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMFiSession.h">CUMFiSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMFiWriteRequest.h">CUMFiWriteRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMessageRequestEntry.h">CUMessageRequestEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMessageSession.h">CUMessageSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMessageSessionServer.h">CUMessageSessionServer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMessageSessionXPCConnection.h">CUMessageSessionXPCConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMobileDevice.h">CUMobileDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMobileDeviceDiscovery.h">CUMobileDeviceDiscovery.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMobileDeviceMonitorContext.h">CUMobileDeviceMonitorContext.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUMobileDeviceSession.h">CUMobileDeviceSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNANDataSession.h">CUNANDataSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNANEndpoint.h">CUNANEndpoint.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNANPublisher.h">CUNANPublisher.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNANSubscriber.h">CUNANSubscriber.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNFCAdvertiser.h">CUNFCAdvertiser.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNFCDevice.h">CUNFCDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNFCScanner.h">CUNFCScanner.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNetInterfaceMonitor.h">CUNetInterfaceMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNetLinkEndpoint.h">CUNetLinkEndpoint.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNetLinkManager.h">CUNetLinkManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNetServiceAdvertiser.h">CUNetServiceAdvertiser.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNetServiceDiscovery.h">CUNetServiceDiscovery.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUNetServiceEndpoint.h">CUNetServiceEndpoint.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPairedPeer.h">CUPairedPeer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPairingDaemon.h">CUPairingDaemon.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPairingIdentity.h">CUPairingIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPairingManager.h">CUPairingManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPairingSession.h">CUPairingSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPairingStream.h">CUPairingStream.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPairingXPCConnection.h">CUPairingXPCConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPersistentTimer.h">CUPersistentTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPowerSource.h">CUPowerSource.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPowerSourceLEDInfo.h">CUPowerSourceLEDInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPowerSourceMonitor.h">CUPowerSourceMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPrivateDiscoveryAdvertiser.h">CUPrivateDiscoveryAdvertiser.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPrivateDiscoveryBrowser.h">CUPrivateDiscoveryBrowser.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPrivateDiscoveryDaemon.h">CUPrivateDiscoveryDaemon.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPrivateDiscoveryEndpoint.h">CUPrivateDiscoveryEndpoint.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPrivateDiscoveryManager.h">CUPrivateDiscoveryManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUPrivateDiscoveryXPCConnection.h">CUPrivateDiscoveryXPCConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CURangingMeasurement.h">CURangingMeasurement.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CURangingPeer.h">CURangingPeer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CURangingSession.h">CURangingSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUReachabilityMonitor.h">CUReachabilityMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUReadRequest.h">CUReadRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CURetrier.h">CURetrier.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CURunLoopThread.h">CURunLoopThread.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUSleepWakeMonitor.h">CUSleepWakeMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUState.h">CUState.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUStateEvent.h">CUStateEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUStateMachine.h">CUStateMachine.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUSystemMonitor.h">CUSystemMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUSystemMonitorImp.h">CUSystemMonitorImp.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUTCPConnection.h">CUTCPConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUTCPServer.h">CUTCPServer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUTDSAgent.h">CUTDSAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUTDSDaemon.h">CUTDSDaemon.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUTDSDevice.h">CUTDSDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUTDSEndpoint.h">CUTDSEndpoint.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUTDSProvider.h">CUTDSProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUTDSSeeker.h">CUTDSSeeker.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUTDSSession.h">CUTDSSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUTDSXPCConnection.h">CUTDSXPCConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUUserNotificationSession.h">CUUserNotificationSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUVoiceRequest.h">CUVoiceRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUVoiceSession.h">CUVoiceSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUWACSession.h">CUWACSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUWiFiDevice.h">CUWiFiDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUWiFiManager.h">CUWiFiManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUWiFiScanner.h">CUWiFiScanner.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUWiFiTrafficPeer.h">CUWiFiTrafficPeer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUWriteRequest.h">CUWriteRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUXMLRPCClient.h">CUXMLRPCClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUXPCAgent.h">CUXPCAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CUXPCAgentConnection.h">CUXPCAgentConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/CoreUtilsNSSubrangeData.h">CoreUtilsNSSubrangeData.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUtils.framework/TUTestState.h">TUTestState.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

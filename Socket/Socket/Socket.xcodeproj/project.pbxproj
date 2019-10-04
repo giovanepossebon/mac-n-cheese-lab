@@ -6,10 +6,26 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		740197FC2347DAC10066CDF3 /* SubSocket */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 740197FD2347DAC10066CDF3 /* Build configuration list for PBXAggregateTarget "SubSocket" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SubSocket;
+			productName = SubSocket;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		740197EA2347D7290066CDF3 /* StageSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740197E02347D7290066CDF3 /* StageSocket.framework */; };
 		740197EF2347D7290066CDF3 /* StageSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740197EE2347D7290066CDF3 /* StageSocketTests.swift */; };
 		740197F12347D7290066CDF3 /* StageSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 740197E32347D7290066CDF3 /* StageSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740198012347DB8C0066CDF3 /* SocketModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740198002347DB8C0066CDF3 /* SocketModule.swift */; };
+		BCB9E83E814E19BF33886AAF /* Pods_StageSocketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26423F26EAFBD7C40DD55C73 /* Pods_StageSocketTests.framework */; };
+		F570EFF58C8C01766AD390D2 /* Pods_StageSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AD454793EA4D55D85BF902 /* Pods_StageSocket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +39,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2151EB664D46EE1E8DA6351C /* Pods-StageSocketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StageSocketTests.debug.xcconfig"; path = "Target Support Files/Pods-StageSocketTests/Pods-StageSocketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26423F26EAFBD7C40DD55C73 /* Pods_StageSocketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StageSocketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3483C046132A63A1E5D64CE5 /* Pods-StageSocketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StageSocketTests.release.xcconfig"; path = "Target Support Files/Pods-StageSocketTests/Pods-StageSocketTests.release.xcconfig"; sourceTree = "<group>"; };
+		4200FA65BB8C98995C9D08E0 /* Pods-StageSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StageSocket.debug.xcconfig"; path = "Target Support Files/Pods-StageSocket/Pods-StageSocket.debug.xcconfig"; sourceTree = "<group>"; };
 		740197E02347D7290066CDF3 /* StageSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StageSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		740197E32347D7290066CDF3 /* StageSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StageSocket.h; sourceTree = "<group>"; };
 		740197E42347D7290066CDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740197E92347D7290066CDF3 /* StageSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StageSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		740197EE2347D7290066CDF3 /* StageSocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageSocketTests.swift; sourceTree = "<group>"; };
 		740197F02347D7290066CDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740198002347DB8C0066CDF3 /* SocketModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketModule.swift; sourceTree = "<group>"; };
+		95AD454793EA4D55D85BF902 /* Pods_StageSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StageSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB482006E06D00E046C08A9E /* Pods-StageSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StageSocket.release.xcconfig"; path = "Target Support Files/Pods-StageSocket/Pods-StageSocket.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F570EFF58C8C01766AD390D2 /* Pods_StageSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +68,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				740197EA2347D7290066CDF3 /* StageSocket.framework in Frameworks */,
+				BCB9E83E814E19BF33886AAF /* Pods_StageSocketTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E5197D55AF84F74D6596AE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95AD454793EA4D55D85BF902 /* Pods_StageSocket.framework */,
+				26423F26EAFBD7C40DD55C73 /* Pods_StageSocketTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		740197D42347D6F40066CDF3 = {
 			isa = PBXGroup;
 			children = (
 				740197E22347D7290066CDF3 /* StageSocket */,
 				740197ED2347D7290066CDF3 /* StageSocketTests */,
 				740197E12347D7290066CDF3 /* Products */,
+				F32EFFAAFCF52E64687FAF5C /* Pods */,
+				5E5197D55AF84F74D6596AE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +109,7 @@
 			children = (
 				740197E32347D7290066CDF3 /* StageSocket.h */,
 				740197E42347D7290066CDF3 /* Info.plist */,
+				740198002347DB8C0066CDF3 /* SocketModule.swift */,
 			);
 			path = StageSocket;
 			sourceTree = "<group>";
@@ -84,6 +121,17 @@
 				740197F02347D7290066CDF3 /* Info.plist */,
 			);
 			path = StageSocketTests;
+			sourceTree = "<group>";
+		};
+		F32EFFAAFCF52E64687FAF5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4200FA65BB8C98995C9D08E0 /* Pods-StageSocket.debug.xcconfig */,
+				DB482006E06D00E046C08A9E /* Pods-StageSocket.release.xcconfig */,
+				2151EB664D46EE1E8DA6351C /* Pods-StageSocketTests.debug.xcconfig */,
+				3483C046132A63A1E5D64CE5 /* Pods-StageSocketTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +152,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 740197F22347D7290066CDF3 /* Build configuration list for PBXNativeTarget "StageSocket" */;
 			buildPhases = (
+				94CA42702C05BBB26384DA58 /* [CP] Check Pods Manifest.lock */,
 				740197DB2347D7290066CDF3 /* Headers */,
 				740197DC2347D7290066CDF3 /* Sources */,
 				740197DD2347D7290066CDF3 /* Frameworks */,
@@ -122,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 740197F52347D7290066CDF3 /* Build configuration list for PBXNativeTarget "StageSocketTests" */;
 			buildPhases = (
+				9845FEFEECDF64C2A0D5FE94 /* [CP] Check Pods Manifest.lock */,
 				740197E52347D7290066CDF3 /* Sources */,
 				740197E62347D7290066CDF3 /* Frameworks */,
 				740197E72347D7290066CDF3 /* Resources */,
@@ -147,8 +197,12 @@
 				TargetAttributes = {
 					740197DF2347D7290066CDF3 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					740197E82347D7290066CDF3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					740197FC2347DAC10066CDF3 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
@@ -168,6 +222,7 @@
 			targets = (
 				740197DF2347D7290066CDF3 /* StageSocket */,
 				740197E82347D7290066CDF3 /* StageSocketTests */,
+				740197FC2347DAC10066CDF3 /* SubSocket */,
 			);
 		};
 /* End PBXProject section */
@@ -189,11 +244,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94CA42702C05BBB26384DA58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StageSocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9845FEFEECDF64C2A0D5FE94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StageSocketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		740197DC2347D7290066CDF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740198012347DB8C0066CDF3 /* SocketModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +333,7 @@
 		};
 		740197F32347D7290066CDF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4200FA65BB8C98995C9D08E0 /* Pods-StageSocket.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -313,6 +417,7 @@
 		};
 		740197F42347D7290066CDF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB482006E06D00E046C08A9E /* Pods-StageSocket.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -389,7 +494,9 @@
 		};
 		740197F62347D7290066CDF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2151EB664D46EE1E8DA6351C /* Pods-StageSocketTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -461,7 +568,9 @@
 		};
 		740197F72347D7290066CDF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3483C046132A63A1E5D64CE5 /* Pods-StageSocketTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -524,6 +633,24 @@
 			};
 			name = Release;
 		};
+		740197FE2347DAC10066CDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YM4BCE4GH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		740197FF2347DAC10066CDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YM4BCE4GH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -550,6 +677,15 @@
 			buildConfigurations = (
 				740197F62347D7290066CDF3 /* Debug */,
 				740197F72347D7290066CDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740197FD2347DAC10066CDF3 /* Build configuration list for PBXAggregateTarget "SubSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740197FE2347DAC10066CDF3 /* Debug */,
+				740197FF2347DAC10066CDF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
